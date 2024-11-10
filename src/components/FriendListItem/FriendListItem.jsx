@@ -5,8 +5,6 @@ const FriendListItem = ({
   name = 'User Name',
   isOnline,
 }) => {
-  console.log(isOnline);
-
   return (
     <div className={s.wrapper}>
       <img src={avatar} alt="Avatar" width="48" className={s.img} />

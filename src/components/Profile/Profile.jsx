@@ -9,7 +9,8 @@ const Profile = ({
   stats: { followers, views, likes },
 }) => {
   return (
-    <div className={s.container}>
+    <div className="container">
+      <h2 className="title">Profile</h2>
       <div className={s.wrapper}>
         <div className={s.user}>
           <img className={s.img} src={image} alt="User avatar" />

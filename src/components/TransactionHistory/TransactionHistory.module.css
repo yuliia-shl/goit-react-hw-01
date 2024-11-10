@@ -1,0 +1,28 @@
+.table {
+  width: 640px;
+  margin: 0 auto;
+  border: 1px solid #1a1a1a;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  border: 2px solid #1a1a1a;
+}
+
+.header {
+  background-color: #2a2a2a;
+  color: #f0f0f0;
+  font-size: 18px;
+  padding: 12px;
+}
+
+.row {
+  text-transform: capitalize;
+}
+
+.row:nth-child(even) {
+  background-color: #d3d3d3;
+}
